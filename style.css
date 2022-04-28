@@ -53,6 +53,14 @@ body {
     cursor: pointer;
     border-radius: 3px;
     margin-left: 5px;
+    /* when it it not active */
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.inputField button.active {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .wrapper .todoList {
@@ -109,4 +117,11 @@ body {
     border-radius: 3px;
     margin-left: 5px;
     padding: 6px 10px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.footer button.active {
+    opacity: 1;
+    pointer-events: auto;
 }
